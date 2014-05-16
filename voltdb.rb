@@ -1,6 +1,6 @@
 require 'formula'
 
-class VoltdbEnt < Formula
+class Voltdb < Formula
   version '4.3'
   homepage 'https://github.com/VoltDB/voltdb'
 
