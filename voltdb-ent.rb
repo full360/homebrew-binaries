@@ -9,7 +9,7 @@ class Voltdb < Formula
     sha256 'fb676bfdd67a04f868da205c5c42390474008e121ce2638ddfb6a33908f9d260'
   elsif OS.linux?
     url 'http://voltdb.com/downloads/technologies/server/LINUX-voltdb-ent-4.3.tar.gz'
-    sha256 'af1f850076dce3ab7e2789a56c076b807b1e4641c1164047ffb7bcb4f5f4b0a6'
+    sha1 '281e6541d0a98e737ec17576d5ae03fef36ff46d'
   end
 
   def install
