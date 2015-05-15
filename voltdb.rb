@@ -6,10 +6,9 @@ class Voltdb < Formula
 
   if OS.mac?
     url 'http://voltdb.com/downloads/technologies/server/MAC-voltdb-ent-5.2.2.tar.gz'
-    sha256 'fb676bfdd67a04f868da205c5c42390474008e121ce2638ddfb6a33908f9d260'
+    sha256 '977f81869a217381b3fd6e791c384f13e170f60d95bd7c7baf6bb10a5968804d'
   elsif OS.linux?
     url 'http://voltdb.com/downloads/technologies/server/LINUX-voltdb-ent-5.2.2.tar.gz'
-    sha256 'af1f850076dce3ab7e2789a56c076b807b1e4641c1164047ffb7bcb4f5f4b0a6'
   end
 
   def install
