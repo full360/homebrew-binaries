@@ -1,14 +1,14 @@
 require 'formula'
 
 class Voltdb < Formula
-  version '5.2.2'
+  version '6.4'
   homepage 'https://github.com/VoltDB/voltdb'
 
   if OS.mac?
-    url 'http://voltdb.com/downloads/technologies/server/MAC-voltdb-ent-5.2.2.tar.gz'
+    url 'http://voltdb.com/downloads/technologies/server/MAC-voltdb-ent-6.4.tar.gz'
     sha256 '977f81869a217381b3fd6e791c384f13e170f60d95bd7c7baf6bb10a5968804d'
   elsif OS.linux?
-    url 'http://voltdb.com/downloads/technologies/server/LINUX-voltdb-ent-5.2.2.tar.gz'
+    url 'http://voltdb.com/downloads/technologies/server/LINUX-voltdb-ent-6.4.tar.gz'
   end
 
   def install
